@@ -44,15 +44,11 @@
     },
     "autoload": {
         "psr-4": {
-            "ZF\\OAuth2\\": "src/"
+            "ZF\\OAuth2\\": "src/",
+            "ZFTest\\OAuth2\\": "test/"
         },
         "classmap": [
             "Module.php"
         ]
-    },
-    "autoload": {
-        "psr-4": {
-            "ZFTest\\OAuth2\\": "test/"
-        }
     }
 }
